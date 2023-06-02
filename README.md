@@ -3,8 +3,11 @@
 This repository contains the backend for the Awfy application, and the steps for its initialization are:
 
 - **Install MySQL**
+- **Create Database testRentek**
+- **Copy and rename env.example to .env**
+- **Set User and Password to database**
 - **Install php8.1**
-- **Install PHP extensions**
+- **Install PHP extensions to Laravel**
 - **Install Composer 2**
 - **Clone repository**
 - **Run composer install in project**
@@ -13,6 +16,7 @@ This repository contains the backend for the Awfy application, and the steps for
 
 - **Project configuration and start command:**
     ```
+    - php artisan key:generate
     - php artisan app:project-start
     ```
 
