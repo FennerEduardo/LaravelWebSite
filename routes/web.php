@@ -19,6 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// new routes 
 Route::get('/dashboard', [ContactController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
