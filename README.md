@@ -1,3 +1,26 @@
+# Building Website FactorTek by Fenner González
+
+This repository contains the backend for the Awfy application, and the steps for its initialization are:
+
+- **Install MySQL**
+- **Install php8.1**
+- **Install PHP extensions**
+- **Install Composer 2**
+- **Clone repository**
+- **Run composer install in project**
+
+
+
+- **Project configuration and start command:**
+    ```
+    - php artisan app:project-start
+    ```
+
+#
+
+## **This app has been created using Laravel**
+
+#
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
