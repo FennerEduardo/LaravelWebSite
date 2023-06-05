@@ -1,6 +1,6 @@
 # Building Website FactorTek by Fenner González
 
-This repository contains the backend for the Awfy application, and the steps for its initialization are:
+Steps:
 
 - **Install MySQL**
 - **Create Database testRentek**
